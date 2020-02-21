@@ -5,7 +5,7 @@ pipeline {
             }
     stages {
         stage('Example') {
-            environement {
+            environment {
                 API_KEY = 'ISCP123' //An environment directive defined within a stage will only apply the given environemtn variables to steps within the stage
             }
             steps {

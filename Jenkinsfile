@@ -3,7 +3,6 @@ pipeline {
     environment {
         LEGEND =  'srinath' ////An environment directive used in the top-level pipeline block will apply to all steps within the pipeline
             }
-    }
     stages {
         stage('Example') {
             environement {
